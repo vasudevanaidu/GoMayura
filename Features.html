@@ -4,12 +4,12 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Go Mayura</title>
+  <title>Go Mayura - Features</title>
   <meta name="description" content="GoMayura Smart Bus Management Platform">
   <meta name="keywords" content="GoMayura">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/logo/GoMayura copy.svg" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -29,65 +29,21 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-  <style>
-    .feature {
-      display: flex;
-      align-items: center; /* Align icon and text vertically */
-      justify-content: flex-start; /* Align content to the left */
-      gap: 10px; /* Space between icon and text */
-      color: white; /* Adjust based on your design */
-    }
-    
-    .feature i {
-      font-size: 24px; /* Adjust icon size */
-      color: #ffffff; /* Gold color */
-    }
-    
-    .feature p {
-      margin: 0;
-      font-size: 16px;
-      font-weight: bold;
-    }
+ 
+<style>
   .divider {
-      position: relative;
-      display: block;
-      width: 68px;
-      height: 5px;
-      background-image: url(./assets/img/divider-centered.png);
-      background-repeat: no-repeat;
-      background-position: center;
-      margin-top: 10px;
-      margin-bottom: 10px;
-  }
-  .margins-head{
-    margin:0px;
-    font-size: 16px;
-  }
-  .animated-image {
-  animation: flipImage 2s linear forwards, moveUpDown 3s ease-in-out 5s infinite; /* First flip, then move up/down */
+    position: relative;
+    display: block;
+    width: 68px;
+    height: 5px;
+    background-image: url(./assets/img/divider-centered.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-
-@keyframes flipImage {
-  0% {
-    transform: rotateY(0deg); /* Initial state (no flip) */
-  }
-  100% {
-    transform: rotateY(360deg); /* Final state (flip 360 degrees) */
-  }
-}
-
-@keyframes moveUpDown {
-  0%, 100% {
-    transform: translateY(0); /* Start and end at the original position */
-  }
-  50% {
-    transform: translateY(-10px); /* Move up */
-  }
-}
-    </style>
-
+</style>
 </head>
-
 <body class="services-page">
 
   <header id="header" class="header d-flex align-items-center fixed-top">
@@ -95,19 +51,18 @@
 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">GoMayura</h1>
+        <img src="assets/img/logo/GoMayura copy.svg " alt="GoMayura" width="100%">
+        <!-- <h1 class="sitename">GoMayura</h1> -->
       </a>
-
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html" class="active">Home<br></a></li>
           <li><a href="about.html">About</a></li>
-          <!-- <li><a href="services.html">Services</a></li> -->
+          <!-- <li><a href="Features.html">Services</a></li> -->
           <li class="dropdown"><a href="#"><span>Product</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="#">Benefits</a></li>
+              <li><a href="Features.html">Features</a></li>
+              <li><a href="Benefits.html">Benefits</a></li>
             </ul>
           </li>
           <li><a href="pricing.html">Pricing</a></li>
@@ -141,13 +96,13 @@
   <main class="main">
 
     <!-- Page Title -->
-    <div class="page-title dark-background" data-aos="fade" style="background-image: url(assets/img/page-title-bg.jpg);">
+    <div class="page-title dark-background" data-aos="fade" style="background-image: url();">
       <div class="container position-relative">
-        <h1>Services</h1>
+        <h1>Features</h1>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li class="current">Services</li>
+            <li class="current">Features</li>
           </ol>
         </nav>
       </div>
@@ -155,14 +110,6 @@
 
     <!-- Features Section -->
     <section id="features" class="features section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <span>Features</span>
-        <h2>Features</h2>
-        <p style="text-align: center;">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
       <div class="container">
 
         <div class="row gy-4 align-items-center features-item">
@@ -170,15 +117,19 @@
             <img src="assets/img/features-1.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-            <p class="fst-italic">
+            <h3>Real-Time Fleet Tracking</h3>
+            <span class="divider"></span>
+            <!-- <p class="fst-italic">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
               magna aliqua.
-            </p>
+            </p> -->
             <ul>
-              <li><i class="bi bi-check"></i><span> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-              <li><i class="bi bi-check"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-              <li><i class="bi bi-check"></i> <span>Ullam est qui quos consequatur eos accusamus.</span></li>
+              <li><i class="bi bi-check"></i><span>Monitor the exact location of every bus in your fleet with live updates.</span></li>
+              <li><i class="bi bi-check"></i> <span>Keep track of each bus's speed to ensure compliance with safety standards.</span></li>
+              <li><i class="bi bi-check"></i> <span>Receive immediate notifications for over-speeding and other critical events.</span></li>
+              <li><i class="bi bi-check"></i> <span>Ensure passenger and operational safety with timely insights.</span></li>
+              <li><i class="bi bi-check"></i> <span>Optimize fleet performance through comprehensive live monitoring and alert systems.</span></li>
+
             </ul>
           </div>
         </div><!-- Features Item -->
@@ -188,16 +139,20 @@
             <img src="assets/img/features-2.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-md-7 order-2 order-md-1" data-aos="fade-up" data-aos-delay="200">
-            <h3>Corporis temporibus maiores provident</h3>
-            <p class="fst-italic">
+            <h3>Driver App - Empowering Drivers</h3>
+            <span class="divider"></span>
+            <!-- <p class="fst-italic">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
               magna aliqua.
-            </p>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
-            </p>
+            </p> -->
+            <ul>
+              <li><i class="bi bi-check"></i><span>Enable drivers to manage passenger drop-ins and drop-offs seamlessly using QR codes.</span></li>
+              <li><i class="bi bi-check"></i> <span>Drivers can instantly notify admins in case of emergencies for swift and effective action.</span></li>
+              <li><i class="bi bi-check"></i> <span>Drivers can enable their location for real-time tracking and accurate route guidance.</span></li>
+              <!-- <li><i class="bi bi-check"></i> <span>Ensure passenger and operational safety with timely insights.</span></li>
+              <li><i class="bi bi-check"></i> <span>Optimize fleet performance through comprehensive live monitoring and alert systems.</span></li> -->
+
+            </ul>
           </div>
         </div><!-- Features Item -->
 
@@ -206,33 +161,51 @@
             <img src="assets/img/features-3.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-md-7" data-aos="fade-up">
-            <h3>Sunt consequatur ad ut est nulla consectetur reiciendis animi voluptas</h3>
-            <p>Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.</p>
+            <h3>User App - Keeping Passengers Informed</h3>
+            <span class="divider"></span>
             <ul>
-              <li><i class="bi bi-check"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-              <li><i class="bi bi-check"></i><span> Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-              <li><i class="bi bi-check"></i> <span>Facilis ut et voluptatem aperiam. Autem soluta ad fugiat</span>.</li>
+              <li><i class="bi bi-check"></i> <span>Passengers can track the bus in real-time, knowing exactly when it will arrive.</span></li>
+              <li><i class="bi bi-check"></i><span> Get accurate estimated times of arrival for pickups and drop-offs.</span></li>
+              <li><i class="bi bi-check"></i> <span>Stay informed about any delays, route changes, or other important events during the trip.</span>.</li>
+              <li><i class="bi bi-check"></i> <span>Ensure seamless communication between passengers, guardians, and drivers for a smooth experience.</span>.</li>
             </ul>
           </div>
         </div><!-- Features Item -->
-
+        
         <div class="row gy-4 align-items-center features-item">
           <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out">
             <img src="assets/img/features-4.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-md-7 order-2 order-md-1" data-aos="fade-up">
-            <h3>Quas et necessitatibus eaque impedit ipsum animi consequatur incidunt in</h3>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
-            </p>
+            <h3>Advanced Fleet Monitoring & Insights</h3>
+            <span class="divider"></span>
+            <ul>
+              <li><i class="bi bi-check"></i> <span>Track bus locations, speed, and status in real-time from a centralized dashboard.</span></li>
+              <li><i class="bi bi-check"></i><span>Receive immediate notifications for over-speeding, route deviations, and other significant incidents.</span></li>
+              <li><i class="bi bi-check"></i> <span>Access historical data, monitor performance trends, and generate reports to enhance fleet efficiency.</span>.</li>
+              <li><i class="bi bi-check"></i> <span>Easily monitor attendance, generate detailed reports, and ensure operational transparency.</span>.</li>
+              <li><i class="bi bi-check"></i><span>Manage and oversee all fleet activities, ensuring smooth and efficient operations from one platform.</span></li>
+            </ul>
           </div>
         </div><!-- Features Item -->
+
+        <div class="row gy-4 align-items-center features-item">
+          <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out">
+            <img src="assets/img/features-4.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7 order-2 order-md-1" data-aos="fade-up">
+            <h3>Instant Emergency Response</h3>
+            <span class="divider"></span>
+            <ul>
+              <li><i class="bi bi-check"></i> <span>Attendants can quickly trigger SOS alerts during emergencies, ensuring immediate attention and support.</span></li>
+              <li><i class="bi bi-check"></i><span>Instantly connect with the attendant through a live conference call for direct communication and swift resolution.</span></li>
+              <li><i class="bi bi-check"></i> <span>Admins can track the exact location of the emergency and identify nearby vehicles ready to assist.</span></li>
+              <li><i class="bi bi-check"></i> <span>All communication records and media shared by the attendant are easily accessible and downloadable from the admin portal for further review.</span></li>
+            </ul>
+          </div>
+        </div><!-- Features Item -->
+        
+        
 
       </div>
 
@@ -246,9 +219,12 @@
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">Logis</span>
+            <!-- <span class="sitename">GoMayura</span> -->
+            <img src="assets/img/logo/GoMayura copy.svg " alt="GoMayura" width="100%">
           </a>
-          <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+          <p style="color: color-mix(in srgb, var(--default-color), transparent 40%);" class="margins-head">Streamline your bus management with GoMayura - designed for schools, colleges, 
+            and organizations. effortlessly track, manage, and optimize your fleet with 
+            user-friendly, cloud-based solution.</p>
           <div class="social-links d-flex mt-4">
             <a href=""><i class="bi bi-twitter-x"></i></a>
             <a href=""><i class="bi bi-facebook"></i></a>
@@ -260,50 +236,46 @@
         <div class="col-lg-2 col-6 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Features.html">Features</a></li>
+            <li><a href="Benefits.html">Benefits</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <!-- <li><a href="#">Privacy policy</a></li> -->
           </ul>
         </div>
 
         <div class="col-lg-2 col-6 footer-links">
-          <h4>Our Services</h4>
+          <h4>Our Features</h4>
           <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
+            <li><a>Driver App </a></li>
+            <li><a>User App</a></li>
+            <li><a>Real-Time Alerts</a></li>
+            <li><a>Analytics and Reporting</a></li>
+            <li><a>Real-Time Fleet Tracking</a></li>
+            
+
           </ul>
         </div>
 
-        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+        <div class="col-lg-3 col-md-12 footer-contact text-md-start" style="color: color-mix(in srgb, var(--default-color), transparent 40%);">
           <h4>Contact Us</h4>
-          <p>A108 Adam Street</p>
-          <p>New York, NY 535022</p>
-          <p>United States</p>
-          <p class="mt-4"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-          <p><strong>Email:</strong> <span>info@example.com</span></p>
+          <p style="font-size: 14px;">Road No 3, KPHB,<br>Hyderabad,Telangana,500072,India</p>
+          <p class="mt-4"><strong>Phone:</strong> <span>+91 xxxxxxxxxx</span></p>
+          <p><strong>Email:</strong> <span>GoMayura@sales.com</span></p>
         </div>
 
       </div>
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Logis</strong> <span>All Rights Reserved</span></p>
+      <p style="color: #ffffff;display: flex;justify-content: center;align-items: center;">© <span>Copyright</span> <strong class="px-1 sitename" style="color:#74ffd0;">GoMayura</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="#" style="color:#74ffd0;font-weight: bold;">BGPV</a>
       </div>
     </div>
 
   </footer>
-
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 

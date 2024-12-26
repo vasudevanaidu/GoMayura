@@ -555,11 +555,11 @@ h6 {
 
 .footer .footer-about .logo {
   line-height: 1;
-  margin-bottom: 25px;
+  /* margin-bottom: 25px; */
 }
 
 .footer .footer-about .logo img {
-  max-height: 40px;
+  max-height: 70px;
   margin-right: 6px;
 }
 
@@ -2149,7 +2149,6 @@ section,
 
 .col-md-6.icon-box:hover {
   transform: scale(1.03);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 .col-md-6.icon-box:hover img {
   transform: rotate(360deg);
@@ -2261,10 +2260,13 @@ benefits section
   width: 70px;
   height: 70px;
   transition: transform 0.6s ease-in-out;
+  position: relative;
+  top: 15px;
+  left: 25px;
 }
 
 .benefit:hover .icon img {
-  transform: rotate(360deg);
+  transform: rotateY(360deg);
 }
 
 .background-circle {
@@ -2326,6 +2328,29 @@ benefits section
   .benefit-para {
     font-size: 12px;
   }
+}
+
+
+.features-item .img-fluid{
+  border-radius: 10%;
+}
+
+
+.features-item ul li {
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.features-item ul li:hover {
+  transform: translateX(10px); /* Moves the list item slightly to the right */
+  color: #0d42ff; /* Changes the text color on hover */
+}
+
+.features-item ul li i {
+  transition: color 0.3s ease-in-out;
+}
+
+.features-item ul li:hover i {
+  color: #0d42ff; /* Changes the icon color to match the text */
 }
 
 
