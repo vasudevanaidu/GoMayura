@@ -42,6 +42,21 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
+#animated-image {
+    animation: moveUpDown 3s infinite ease-in-out;
+}
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+   </style>
 </style>
 </head>
 <body class="services-page">
@@ -57,7 +72,7 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html" class="active">Home<br></a></li>
-          <li><a href="about.html">About</a></li>
+          <!-- <li><a href="about.html">About</a></li> -->
           <!-- <li><a href="Features.html">Services</a></li> -->
           <li class="dropdown"><a href="#"><span>Product</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
@@ -66,29 +81,13 @@
             </ul>
           </li>
           <li><a href="pricing.html">Pricing</a></li>
-          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li> -->
+          
           <li><a href="contact.html">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="get-a-quote.html">Demo</a>
+      <a class="btn-getstarted" href="contact.html">Demo</a>
 
     </div>
   </header>
@@ -114,15 +113,12 @@
 
         <div class="row gy-4 align-items-center features-item">
           <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
-            <img src="assets/img/features-1.jpg" class="img-fluid" alt="">
+            <img src="assets/img/features/discover1.svg" class="img-fluid" alt="Real-Time Fleet Tracking" id="animated-image">
           </div>
           <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
             <h3>Real-Time Fleet Tracking</h3>
             <span class="divider"></span>
-            <!-- <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p> -->
+            
             <ul>
               <li><i class="bi bi-check"></i><span>Monitor the exact location of every bus in your fleet with live updates.</span></li>
               <li><i class="bi bi-check"></i> <span>Keep track of each bus's speed to ensure compliance with safety standards.</span></li>
@@ -136,29 +132,24 @@
 
         <div class="row gy-4 align-items-center features-item">
           <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-            <img src="assets/img/features-2.jpg" class="img-fluid" alt="">
+            <img src="assets/img/features/Driver.png" class="img-fluid" alt="Driver App - Empowering Drivers" id="animated-image">
           </div>
           <div class="col-md-7 order-2 order-md-1" data-aos="fade-up" data-aos-delay="200">
             <h3>Driver App - Empowering Drivers</h3>
             <span class="divider"></span>
-            <!-- <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p> -->
+           
             <ul>
               <li><i class="bi bi-check"></i><span>Enable drivers to manage passenger drop-ins and drop-offs seamlessly using QR codes.</span></li>
               <li><i class="bi bi-check"></i> <span>Drivers can instantly notify admins in case of emergencies for swift and effective action.</span></li>
               <li><i class="bi bi-check"></i> <span>Drivers can enable their location for real-time tracking and accurate route guidance.</span></li>
-              <!-- <li><i class="bi bi-check"></i> <span>Ensure passenger and operational safety with timely insights.</span></li>
-              <li><i class="bi bi-check"></i> <span>Optimize fleet performance through comprehensive live monitoring and alert systems.</span></li> -->
-
+              
             </ul>
           </div>
         </div><!-- Features Item -->
 
         <div class="row gy-4 align-items-center features-item">
           <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out">
-            <img src="assets/img/features-3.jpg" class="img-fluid" alt="">
+            <img src="assets/img/features/User.png" class="img-fluid" alt="User App - Keeping Passengers Informed" id="animated-image">
           </div>
           <div class="col-md-7" data-aos="fade-up">
             <h3>User App - Keeping Passengers Informed</h3>
@@ -174,7 +165,7 @@
         
         <div class="row gy-4 align-items-center features-item">
           <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out">
-            <img src="assets/img/features-4.jpg" class="img-fluid" alt="">
+            <img src="assets/img/features/Monitoring.png" class="img-fluid" alt="Advanced Fleet Monitoring & Insights" id="animated-image">
           </div>
           <div class="col-md-7 order-2 order-md-1" data-aos="fade-up">
             <h3>Advanced Fleet Monitoring & Insights</h3>
@@ -184,14 +175,13 @@
               <li><i class="bi bi-check"></i><span>Receive immediate notifications for over-speeding, route deviations, and other significant incidents.</span></li>
               <li><i class="bi bi-check"></i> <span>Access historical data, monitor performance trends, and generate reports to enhance fleet efficiency.</span>.</li>
               <li><i class="bi bi-check"></i> <span>Easily monitor attendance, generate detailed reports, and ensure operational transparency.</span>.</li>
-              <li><i class="bi bi-check"></i><span>Manage and oversee all fleet activities, ensuring smooth and efficient operations from one platform.</span></li>
             </ul>
           </div>
         </div><!-- Features Item -->
 
         <div class="row gy-4 align-items-center features-item">
           <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out">
-            <img src="assets/img/features-4.jpg" class="img-fluid" alt="">
+            <img src="assets/img/features/Instant Emergency.png" class="img-fluid" alt="Instant Emergency Response" id="animated-image">
           </div>
           <div class="col-md-7 order-2 order-md-1" data-aos="fade-up">
             <h3>Instant Emergency Response</h3>
